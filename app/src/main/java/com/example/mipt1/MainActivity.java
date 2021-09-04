@@ -21,4 +21,8 @@ public class MainActivity extends AppCompatActivity {
     public void onBtnChangeTextClick(View view) {
         this.tvMain.setText("Text was changed");
     }
+
+    public void btnChangeColour(View view) {
+        this.tvMain.setTextColor(getResources().getColor(R.color.random));
+    }
 }
